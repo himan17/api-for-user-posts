@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 2000;
 
 // middleware
 app.use(bodyParser.json())
